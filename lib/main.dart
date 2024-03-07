@@ -27,7 +27,7 @@ class _MyHomePageState extends State<MyHomePage> {
   TextEditingController _textEditingController = TextEditingController();
   String _translatedText = '';
   String _selectedLanguage = 'en';
-  String _apiKey = 'AIzaSyBicvXQazxTfWQvlsHG_DQduaNIXWRmcz0';
+  String _apiKey = 'API_Key';
 
   Future<void> _translateText() async {
     String textToTranslate = _textEditingController.text;
